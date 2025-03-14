@@ -1,0 +1,265 @@
+2025-03-14 19:50:58,292 - INFO - Новости успешно обновлены (0 пользователей)
+2025-03-14 19:50:58,592 - INFO - Bot: Bot_urban_1 [@ask_urban_bot]
+2025-03-14 19:50:58,783 - WARNING - Updates were skipped successfully.
+2025-03-14 19:50:58,784 - INFO - Start polling.
+2025-03-14 19:51:18,181 - INFO - Новости успешно обновлены (1 пользователей)
+2025-03-14 19:51:41,829 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-25' coro=<Dispatcher._process_polling_updates() done, defined at C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=KeyError('source')>
+Traceback (most recent call last):
+  File "C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Pycharm_Project\Practice\PythonProject1\news_bot\bot.py", line 138, in send_latest_news
+    await message.answer(f"#{news['source']}\n{news['title']}\n{news['link']}")
+KeyError: 'source'
+2025-03-14 19:51:55,317 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-47' coro=<Dispatcher._process_polling_updates() done, defined at C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=KeyError('source')>
+Traceback (most recent call last):
+  File "C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Pycharm_Project\Practice\PythonProject1\news_bot\bot.py", line 138, in send_latest_news
+    await message.answer(f"#{news['source']}\n{news['title']}\n{news['link']}")
+KeyError: 'source'
+2025-03-14 19:52:33,818 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-94' coro=<Dispatcher._process_polling_updates() done, defined at C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=KeyError('source')>
+Traceback (most recent call last):
+  File "C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Pycharm_Project\Practice\PythonProject1\news_bot\bot.py", line 138, in send_latest_news
+    await message.answer(f"#{news['source']}\n{news['title']}\n{news['link']}")
+KeyError: 'source'
+2025-03-14 19:52:42,730 - INFO - Stop polling...
+2025-03-14 19:52:42,731 - WARNING - Goodbye!
+2025-03-14 19:52:47,323 - INFO - Новости успешно обновлены (0 пользователей)
+2025-03-14 19:52:47,619 - INFO - Bot: Bot_urban_1 [@ask_urban_bot]
+2025-03-14 19:52:47,819 - WARNING - Updates were skipped successfully.
+2025-03-14 19:52:47,820 - INFO - Start polling.
+2025-03-14 19:53:02,491 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-10' coro=<Dispatcher._process_polling_updates() done, defined at C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=KeyError('source')>
+Traceback (most recent call last):
+  File "C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Pycharm_Project\Practice\PythonProject1\news_bot\bot.py", line 138, in send_latest_news
+    await message.answer(f"#{news['source']}\n{news['title']}\n{news['link']}")
+KeyError: 'source'
+2025-03-14 19:56:24,437 - INFO - Новости успешно обновлены (1 пользователей)
+2025-03-14 19:56:39,728 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-37' coro=<Dispatcher._process_polling_updates() done, defined at C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=KeyError('source')>
+Traceback (most recent call last):
+  File "C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Pycharm_Project\Practice\PythonProject1\news_bot\bot.py", line 138, in send_latest_news
+KeyError: 'source'
+2025-03-14 19:59:29,643 - INFO - Stop polling...
+2025-03-14 19:59:29,643 - WARNING - Goodbye!
+2025-03-14 19:59:34,043 - WARNING - Goodbye!
+2025-03-14 19:59:34,066 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<scheduled_news_update() done, defined at C:\Pycharm_Project\Practice\PythonProject1\news_bot\bot.py:74> exception=KeyboardInterrupt()>
+Traceback (most recent call last):
+  File "C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\aiogram\utils\executor.py", line 320, in start_polling
+    loop.run_until_complete(self._startup_polling())
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 634, in run_until_complete
+    self.run_forever()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python39\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 601, in run_forever
+    self._run_once()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 1905, in _run_once
+    handle._run()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python39\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Pycharm_Project\Practice\PythonProject1\news_bot\bot.py", line 76, in scheduled_news_update
+    await update_news()
+  File "C:\Pycharm_Project\Practice\PythonProject1\news_bot\bot.py", line 56, in update_news
+    "CNN": parse_cnn() or [],
+  File "C:\Pycharm_Project\Practice\PythonProject1\news_bot\pars.py", line 119, in parse_cnn
+    soup = BeautifulSoup(response.content, 'html.parser')
+  File "C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\bs4\__init__.py", line 473, in __init__
+    self._feed()
+  File "C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\bs4\__init__.py", line 658, in _feed
+    self.builder.feed(self.markup)
+  File "C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\bs4\builder\_htmlparser.py", line 467, in feed
+    parser.feed(markup)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python39\lib\html\parser.py", line 110, in feed
+    self.goahead(0)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python39\lib\html\parser.py", line 170, in goahead
+    k = self.parse_starttag(i)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python39\lib\html\parser.py", line 344, in parse_starttag
+    self.handle_starttag(tag, attrs)
+  File "C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\bs4\builder\_htmlparser.py", line 182, in handle_starttag
+    tag = self.soup.handle_starttag(
+  File "C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\bs4\__init__.py", line 1019, in handle_starttag
+    self.endData()
+KeyboardInterrupt
+2025-03-14 19:59:40,986 - WARNING - Goodbye!
+2025-03-14 19:59:41,004 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<scheduled_news_update() done, defined at C:\Pycharm_Project\Practice\PythonProject1\news_bot\bot.py:74> exception=KeyboardInterrupt()>
+Traceback (most recent call last):
+  File "C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\aiogram\utils\executor.py", line 320, in start_polling
+    loop.run_until_complete(self._startup_polling())
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 634, in run_until_complete
+    self.run_forever()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python39\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 601, in run_forever
+    self._run_once()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 1905, in _run_once
+    handle._run()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python39\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Pycharm_Project\Practice\PythonProject1\news_bot\bot.py", line 76, in scheduled_news_update
+    await update_news()
+  File "C:\Pycharm_Project\Practice\PythonProject1\news_bot\bot.py", line 56, in update_news
+    "CNN": parse_cnn() or [],
+  File "C:\Pycharm_Project\Practice\PythonProject1\news_bot\pars.py", line 113, in parse_cnn
+    response = requests.get(url, headers={
+  File "C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\requests\api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\requests\api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+  File "C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+  File "C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\urllib3\connectionpool.py", line 534, in _make_request
+    response = conn.getresponse()
+  File "C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\urllib3\connection.py", line 516, in getresponse
+    httplib_response = super().getresponse()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 1377, in getresponse
+    response.begin()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python39\lib\http\client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python39\lib\socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1242, in recv_into
+    return self.read(nbytes, buffer)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python39\lib\ssl.py", line 1100, in read
+    return self._sslobj.read(len, buffer)
+KeyboardInterrupt
+2025-03-14 19:59:48,227 - WARNING - Goodbye!
+2025-03-14 19:59:48,246 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<scheduled_news_update() done, defined at C:\Pycharm_Project\Practice\PythonProject1\news_bot\bot.py:74> exception=KeyboardInterrupt()>
+Traceback (most recent call last):
+  File "C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\aiogram\utils\executor.py", line 320, in start_polling
+    loop.run_until_complete(self._startup_polling())
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 634, in run_until_complete
+    self.run_forever()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python39\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 601, in run_forever
+    self._run_once()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 1905, in _run_once
+    handle._run()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python39\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Pycharm_Project\Practice\PythonProject1\news_bot\bot.py", line 76, in scheduled_news_update
+    await update_news()
+  File "C:\Pycharm_Project\Practice\PythonProject1\news_bot\bot.py", line 56, in update_news
+    "CNN": parse_cnn() or [],
+  File "C:\Pycharm_Project\Practice\PythonProject1\news_bot\pars.py", line 119, in parse_cnn
+    soup = BeautifulSoup(response.content, 'html.parser')
+  File "C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\bs4\__init__.py", line 473, in __init__
+    self._feed()
+  File "C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\bs4\__init__.py", line 658, in _feed
+    self.builder.feed(self.markup)
+  File "C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\bs4\builder\_htmlparser.py", line 467, in feed
+    parser.feed(markup)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python39\lib\html\parser.py", line 110, in feed
+    self.goahead(0)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python39\lib\html\parser.py", line 170, in goahead
+    k = self.parse_starttag(i)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python39\lib\html\parser.py", line 344, in parse_starttag
+    self.handle_starttag(tag, attrs)
+  File "C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\bs4\builder\_htmlparser.py", line 182, in handle_starttag
+    tag = self.soup.handle_starttag(
+  File "C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\bs4\__init__.py", line 1019, in handle_starttag
+    self.endData()
+  File "C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\bs4\__init__.py", line 864, in endData
+    o = containerClass(current_data)
+  File "C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\bs4\element.py", line 1304, in __new__
+    u.setup()
+  File "C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\bs4\element.py", line 422, in setup
+    self.previous_sibling = previous_sibling
+KeyboardInterrupt
+2025-03-14 19:59:55,188 - INFO - Новости успешно обновлены (0 пользователей)
+2025-03-14 19:59:55,360 - WARNING - Goodbye!
+2025-03-14 20:00:02,703 - WARNING - Goodbye!
+2025-03-14 20:00:02,722 - ERROR - Task exception was never retrieved
+future: <Task finished name='Task-1' coro=<scheduled_news_update() done, defined at C:\Pycharm_Project\Practice\PythonProject1\news_bot\bot.py:74> exception=KeyboardInterrupt()>
+Traceback (most recent call last):
+  File "C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\aiogram\utils\executor.py", line 320, in start_polling
+    loop.run_until_complete(self._startup_polling())
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 634, in run_until_complete
+    self.run_forever()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python39\lib\asyncio\windows_events.py", line 321, in run_forever
+    super().run_forever()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 601, in run_forever
+    self._run_once()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python39\lib\asyncio\base_events.py", line 1905, in _run_once
+    handle._run()
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python39\lib\asyncio\events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "C:\Pycharm_Project\Practice\PythonProject1\news_bot\bot.py", line 76, in scheduled_news_update
+    await update_news()
+  File "C:\Pycharm_Project\Practice\PythonProject1\news_bot\bot.py", line 56, in update_news
+    "CNN": parse_cnn() or [],
+  File "C:\Pycharm_Project\Practice\PythonProject1\news_bot\pars.py", line 119, in parse_cnn
+    soup = BeautifulSoup(response.content, 'html.parser')
+  File "C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\bs4\__init__.py", line 473, in __init__
+    self._feed()
+  File "C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\bs4\__init__.py", line 658, in _feed
+    self.builder.feed(self.markup)
+  File "C:\Pycharm_Project\Practice\PythonProject1\.venv\lib\site-packages\bs4\builder\_htmlparser.py", line 467, in feed
+    parser.feed(markup)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python39\lib\html\parser.py", line 110, in feed
+    self.goahead(0)
+  File "C:\Users\Пользователь\AppData\Local\Programs\Python\Python39\lib\html\parser.py", line 170, in goahead
+    k = self.parse_starttag(i)
+KeyboardInterrupt
+2025-03-14 20:00:10,117 - INFO - Новости успешно обновлены (0 пользователей)
+2025-03-14 20:00:10,197 - WARNING - Goodbye!
