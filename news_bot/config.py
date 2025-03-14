@@ -1,4 +1,4 @@
-BOT_TOKEN = '8162981162:AAFgTWjJqbVBoRe-Sm2Uxask-KDr8_BhCrc'
+BOT_TOKEN = 'YOUR_BOT_TOKEN'
 
 # Источники новостей
 NEWS_SOURCES = {
